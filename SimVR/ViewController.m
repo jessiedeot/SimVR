@@ -2,7 +2,7 @@
 //  ViewController.m
 //  SimVR
 //
-//  Created by Macintosh User on 4/16/16.
+//  Created by Jessie Deot on 4/16/16.
 //  Copyright © 2016 JessieDeot. All rights reserved.
 //
 

@@ -15,6 +15,7 @@
 		3BA611951CC340E400AB97D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA611931CC340E400AB97D9 /* LaunchScreen.storyboard */; };
 		3BA611A01CC340E400AB97D9 /* SimVRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6119F1CC340E400AB97D9 /* SimVRTests.m */; };
 		3BA611AB1CC340E400AB97D9 /* SimVRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA611AA1CC340E400AB97D9 /* SimVRUITests.m */; };
+		3BA611BA1CC3418A00AB97D9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA611B91CC3418A00AB97D9 /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3BA611A61CC340E400AB97D9 /* SimVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA611AA1CC340E400AB97D9 /* SimVRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimVRUITests.m; sourceTree = "<group>"; };
 		3BA611AC1CC340E400AB97D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA611B81CC3418A00AB97D9 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		3BA611B91CC3418A00AB97D9 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				3BA611931CC340E400AB97D9 /* LaunchScreen.storyboard */,
 				3BA611961CC340E400AB97D9 /* Info.plist */,
 				3BA611851CC340E400AB97D9 /* Supporting Files */,
+				3BA611B81CC3418A00AB97D9 /* VideoViewController.h */,
+				3BA611B91CC3418A00AB97D9 /* VideoViewController.m */,
 			);
 			path = SimVR;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				3BA6118D1CC340E400AB97D9 /* ViewController.m in Sources */,
 				3BA6118A1CC340E400AB97D9 /* AppDelegate.m in Sources */,
+				3BA611BA1CC3418A00AB97D9 /* VideoViewController.m in Sources */,
 				3BA611871CC340E400AB97D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
