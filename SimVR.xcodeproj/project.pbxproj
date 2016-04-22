@@ -16,6 +16,7 @@
 		3BA611A01CC340E400AB97D9 /* SimVRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA6119F1CC340E400AB97D9 /* SimVRTests.m */; };
 		3BA611AB1CC340E400AB97D9 /* SimVRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA611AA1CC340E400AB97D9 /* SimVRUITests.m */; };
 		3BA611BA1CC3418A00AB97D9 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA611B91CC3418A00AB97D9 /* VideoViewController.m */; };
+		3BA611BC1CC3E5CB00AB97D9 /* congo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3BA611BB1CC3E5CB00AB97D9 /* congo.mp4 */; };
 		9BCB1C9DC464684AB845C29E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 835C014BC141CD19B5A3B053 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		3BA611AC1CC340E400AB97D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA611B81CC3418A00AB97D9 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		3BA611B91CC3418A00AB97D9 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		3BA611BB1CC3E5CB00AB97D9 /* congo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = congo.mp4; sourceTree = "<group>"; };
 		73326F3624CD7C0A954F2295 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		835C014BC141CD19B5A3B053 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 				3BA611891CC340E400AB97D9 /* AppDelegate.m */,
 				3BA6118B1CC340E400AB97D9 /* ViewController.h */,
 				3BA6118C1CC340E400AB97D9 /* ViewController.m */,
+				3BA611BB1CC3E5CB00AB97D9 /* congo.mp4 */,
 				3BA6118E1CC340E400AB97D9 /* Main.storyboard */,
 				3BA611911CC340E400AB97D9 /* Assets.xcassets */,
 				3BA611931CC340E400AB97D9 /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 			files = (
 				3BA611951CC340E400AB97D9 /* LaunchScreen.storyboard in Resources */,
 				3BA611921CC340E400AB97D9 /* Assets.xcassets in Resources */,
+				3BA611BC1CC3E5CB00AB97D9 /* congo.mp4 in Resources */,
 				3BA611901CC340E400AB97D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -46,17 +46,22 @@ static const CGFloat kVideoViewHeight = 250;
     
     _isPaused = NO;
     
-    //NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"congo" ofType:@"mp4"];
-    //[_videoView loadFromUrl:[[NSURL alloc] initFileURLWithPath:videoPath]];
-    [_videoView loadFromUrl:[NSURL URLWithString:@"http://download.wavetlan.com/SVV/Media/HTTP/MP4/ConvertedFiles/MediaCoder/MediaCoder_test1_1m9s_AVC_VBR_256kbps_640x480_24fps_MPEG2Layer3_CBR_160kbps_Stereo_22050Hz.mp4"]];
+    NSString *videoPath = [[NSBundle mainBundle] pathForResource:@"congo" ofType:@"mp4"];
+    [_videoView loadFromUrl:[[NSURL alloc] initFileURLWithPath:videoPath]];
+    //[_videoView loadFromUrl:[NSURL URLWithString:@"http://download.wavetlan.com/SVV/Media/HTTP/MP4/ConvertedFiles/MediaCoder/MediaCoder_test1_1m9s_AVC_VBR_256kbps_640x480_24fps_MPEG2Layer3_CBR_160kbps_Stereo_22050Hz.mp4"]];
+    
+    [self.view addSubview:_videoView];
+    
 }
 
 - (void)viewWillLayoutSubviews {
     [super viewWillLayoutSubviews];
     
-    _videoView.frame = CGRectMake( 100, 200, _videoView.frame.size.width, _videoView.frame.size.height ); // set new position exactly
+    
 
-    //_videoView.frame = CGRectMake(kMargin, kMargin, CGRectGetWidth(self.view.bounds) - 2 * kMargin, kVideoViewHeight);
+    //_videoView.frame = CGRectMake( 100, 200, _videoView.frame.size.width, _videoView.frame.size.height ); // set new position exactly
+
+    _videoView.frame = CGRectMake(kMargin, kMargin, CGRectGetWidth(self.view.bounds) - 2 * kMargin, kVideoViewHeight);
 }
 
 #pragma mark - GCSVideoViewDelegate
